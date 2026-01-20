@@ -5,7 +5,7 @@ let id: String | number;
 
 // Now this variable can hold both number and string both.
 
-id  = 2;
+id = 2;
 
 id = "Yadu";
 
@@ -25,18 +25,18 @@ console.log(result?.length);
 
 //Question 2.
 
-function f1(id: string| string[]){
+function f1(id: string | string[]) {
 
- if (Array.isArray(id)){
+  if (Array.isArray(id)) {
 
-  console.log(id.join("Hello"));
+    console.log(id.join("Hello"));
 
- }
+  }
 
- else{
+  else {
 
-  console.log(id.toUpperCase());
- }
+    console.log(id.toUpperCase());
+  }
 
 }
 
@@ -49,19 +49,19 @@ function f1(id: string| string[]){
 
 function printId(id: number | string) {
 
-  if(typeof id === "string"){
+  if (typeof id === "string") {
 
     console.log(id?.toUpperCase());
   }
 
-  else{
+  else {
     console.log(id);
 
   }
 }
 
 
-let anyVar: any= "12"
+let anyVar: any = "12"
 
 anyVar = 2;
 
