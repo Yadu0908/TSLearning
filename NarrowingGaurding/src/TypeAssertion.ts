@@ -20,7 +20,7 @@ let inputID= document.getElementById("nameInput") as HTMLInputElement  //Forcefu
 
 let score: any = 10;
 
-let newScore: String = (score as String).toUpperCase();
+let newScore: string = (score as string).toUpperCase();
 
 // console.log(newScore);
 
